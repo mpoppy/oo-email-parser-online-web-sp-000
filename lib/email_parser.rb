@@ -6,3 +6,10 @@
 class EmailParser
   attr_accessor :emails
 end
+
+
+
+emails = "john@doe.com, person@somewhere.org"
+parser = EmailParser.new(emails)
+
+parser.parse
